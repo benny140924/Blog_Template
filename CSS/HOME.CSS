@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+time{
+    display: grid;
+    justify-content: center;
+    align-content: end;
+    min-height: 100vh;
+    background: rgb(9, 83, 221);
+    padding: 50px;
+}
+footer{
+    position: relative;
+    width: auto;
+    height:185x;
+    padding: 50px 100px;
+    background: rgb(226, 151, 233);
+}
+footer .can{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+footer .can.sec h2{
+    position: relative;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer.can.sec p{ 
+    color: black;
+}
+footer .can .sci{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(4,50px);
+}
+footer .can .sci li{
+    list-style: none;
+}
+footer .can .sci li a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: black;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+}
+footer .can .sci li a i{
+    color: white;
+    font-size: 20px;
+}
+footer .available{
+    position: relative;
+}
+footer .available ul li{
+list-style: none;
+}
+footer .available ul li a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+footer .can .contact .info{
+position: relative;
+color: black;
+}
+footer .can .contact .info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+footer .can .contact .info li span{
+    color: black;
+    font-size: 20px;
+}
+footer .can .contact .info li a{
+    color: black;
+    text-decoration: none;
+}
+.copyrighttext{
+    width: 100%;
+    background:rgb(228, 217, 200);
+    padding: 20px 100px 30px;
+    text-align: center;
+    color: rgb(231, 34, 8);
+    border: 1px solid rgba(0, o, 0, 15);
+}
+
+

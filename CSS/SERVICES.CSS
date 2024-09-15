@@ -1,0 +1,164 @@
+.navbar{
+    overflow: hidden;
+    background-color:black;
+    padding:20px 10px;
+    width: auto;
+
+}
+.navbar a{
+    color: white;
+    width: 1200px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.navbar a:hover{
+    background-color: rgb(241, 219, 16);
+}
+.navbar a.active{
+    color:gold;
+}
+.navbar_right{
+    float: right;
+}
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-emphasis-color: gold;
+}
+
+.header{
+    background-color: rgb(245, 104, 170);
+    width: auto;
+    height: 20px;
+    font-style: italic;
+   
+}
+
+.icon img{
+    width: 30px;
+    height: 30px;
+    /* margin-right: 5%; */
+    background-color: transparent;
+    border-radius:100% ;
+    mix-blend-mode: multiply; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color:rgb(240, 104, 222);
+}
+.rolls{
+    width: 100%;
+    padding: 50px 100px;
+}
+.image-section{
+    width: 30%;
+    float: right;
+}
+.image-section img{
+    width: 100%;
+    height: 500px;
+}
+.content{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+.content h1{
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #b60112;
+    margin-top: 25px;
+}
+.content p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+@media screen and(max-width:768px){
+.image-section{
+        width: 100%;
+        float: none;
+    }
+.content{
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+}
+.content h1{
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h2{
+    font-style: 30px;
+}
+.content p{
+    font-size: 10px;
+}
+}
+ .banner{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../IMAGES/bg3.jpg);
+    background-size: cover;
+    background-position: top;
+ }
+ 
+ .mylogo{
+    margin-top: 0px;
+    
+ }
+ .text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%)(-50);
+    text-align: center;
+    color: white;
+ }
+ .text h1{
+    font-size: 50px;
+    color: rgb(110, 6, 207);
+    margin-top: 5px;
+ }
+ .text p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    color: rgb(15, 14, 15);
+ }
+ button{
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid gold;
+    background: transparent;
+    color: rgb(137, 241, 151);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+ }
+ 
